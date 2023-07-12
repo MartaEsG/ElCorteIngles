@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header1 {
+  background-color: #efefef;
+}
+
+.ECI-logo {
+  height: 70px;
+  padding: 10px 0px;
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.header1-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header1-menu img {
+  height: 15px;
+}
+.header1-menu-li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #6b6b6b;
+  border-right: 1px solid #6b6b6b;
+  font-size: 15px;
+  padding-right: 15px;
+}
+.header1-menu .phonenr {
+  color: #6b6b6b;
+  font-size: 18px;
+  display: flex;
+  gap: 10pX;
+}
+.header1-menu .phonenr img {
+  height: 23px;
+}
+
+.header2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+}
+.header2 img {
+  height: 65px;
+}
+.header2-li {
+  list-style: none;
+  margin-bottom: -4px;
+}
+
+main {
+  background-color: #efefef;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+.main1 {
+  display: flex;
+  gap: 5px;
+  padding: 10px 0;
+}
+.main1-inicio {
+  color: #84d020;
+}
+.main1-ofertas {
+  color: #6b6b6b;
+}
+
+.main2 {
+  list-style: none;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: left;
+  gap: 26px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e2e2e2;
+}
+.main2-li {
+  color: white;
+  background-color: #84d020;
+  padding: 12px 22px;
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.main2-li img {
+  height: 15px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 20px;
+  justify-content: center;
+  padding-top: 10px;
+}
+.galeria-fotos {
+  background-color: white;
+  width: 49%;
+}
+.galeria-fotos img {
+  width: 100%;
+}
+.galeria-fotos h3 {
+  font-size: 30px;
+  padding: 15px 15px 5px 15px;
+}
+.galeria-fotos-descrip {
+  padding: 0 15px;
+}
+.galeria .precio {
+  display: flex;
+  padding: 50px 15px 15px 15px;
+  justify-content: space-between;
+}
+.galeria .precio-p {
+  color: #5da132;
+  display: flex;
+  flex-direction: column;
+}
+.galeria .precio-p-desde {
+  font-size: 17px;
+}
+.galeria .precio-p-dinero {
+  font-size: 35px;
+  font-weight: bold;
+}
+.galeria .precio-info {
+  display: inline-flex;
+  gap: 5px;
+  color: #5da132;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #5da132;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px;
+}
+.galeria .precio-info-img {
+  height: 15px;
+  width: 15px;
+}
+
+.ofertas {
+  margin-top: 20px;
+  background-color: white;
+  padding: 18px;
+}
+.ofertas h3 {
+  font-size: 27px;
+  padding-bottom: 18px;
+}
+
+footer {
+  border-top: 1px solid #e2e2e2;
+}
+
+.footer1 {
+  background-color: #efefef;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+.footer1-img {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer1-img img {
+  height: 50px;
+  width: 50px;
+}
+
+.footer2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #efefef;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+.footer2 img {
+  height: 250px;
+}
+
+.footer3 {
+  background-color: #efefef;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px 100px 100px;
+}
+.footer3 p {
+  color: #5da132;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer3-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer3-menu-puntos {
+  list-style: none;
+  line-height: 23px;
+}
+.footer3-span2 {
+  display: flex;
+  gap: 10px;
+}
+.footer3-menu2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer4 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 100px;
+}
+.footer4-tarjeta {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+.footer4-tarjeta-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #6b6b6b;
+}
+.footer4-calidad {
+  display: flex;
+  align-items: flex-end;
+  margin: 50px 100px;
+  gap: 10px;
+}
+.footer4-calidad-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #6b6b6b;
+}
+.footer4-opiniones-texto {
+  color: #6b6b6b;
+  font-size: 15px;
+}
+
+.footer5 {
+  display: flex;
+  justify-content: space-between;
+  margin: -35px 100px 50px 50px;
+}
+.footer5-logo {
+  height: 53px;
+}
+.footer5-texto2 {
+  color: #6b6b6b;
+}
+.footer5-texto {
+  color: #6b6b6b;
+  font-size: 12px;
+}
+.footer5-izda {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,61 @@
+.header1 {
+ background-color: $background-color;
+}
+.ECI-logo{
+    height: 70px;
+    padding: 10px 0px;
+}
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left:100px;
+    padding-right: 100px;
+    &-menu {
+        list-style: none;
+        display: flex;
+        align-items:center;
+        gap: 20px;
+        img  {
+            height: 15px;
+        }
+        &-li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: $color-secondary;
+            border-right: 1px solid $color-secondary;
+            font-size: 15px;
+            padding-right: 15px;
+        }
+        .phonenr {
+            color: $color-secondary;
+            font-size: 18px;
+            display:flex;
+            gap: 10pX;
+            & img {
+                height: 23px;
+            }
+        }
+    }
+}
+.header2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left:100px;
+    padding-right: 100px;
+    align-items:center;
+    border-top: 1px solid #e2e2e2;
+    border-bottom:1px solid #e2e2e2;
+    & img {
+        height: 65px;
+    }
+    &-li {
+        list-style: none;
+        margin-bottom:-4px;  
+    }
+
+}
+
+
+

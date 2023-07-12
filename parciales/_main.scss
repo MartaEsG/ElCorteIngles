@@ -1,0 +1,110 @@
+main {
+    background-color: $background-color;
+    padding-left:100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.main1 {
+    display: flex;
+    gap: 5px;
+    padding: 10px 0;
+    &-inicio {
+        color: $color-primary;
+    }
+    &-ofertas {
+        color: $color-secondary;
+    }
+}
+.main2 {
+    list-style: none;
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: left;
+    gap: 26px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2e2e2;
+
+    &-li {
+        color: white;
+        background-color: $color-primary;
+        padding: 12px 22px;
+        font-size: 20px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        img {
+            height: 15px;
+        }
+    }
+}
+.galeria {
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px 20px;
+    justify-content: center;
+    padding-top:10px;
+    
+    &-fotos {
+        background-color: white;
+        width: 49%;
+        img {
+            width: 100%;
+        }
+        h3 {
+            font-size: 30px;
+            padding: 15px 15px 5px 15px;
+        }
+        &-descrip {
+            padding: 0 15px;
+        }
+    }
+    .precio {
+    
+        display: flex;
+        padding: 50px 15px 15px 15px;
+        justify-content: space-between;
+
+        &-p {
+            color: $color-type;
+            display:flex;
+            flex-direction: column;
+
+            &-desde {
+                font-size: 17px;
+            }
+            &-dinero {
+                font-size: 35px;
+                font-weight: bold;
+            }
+        }
+        &-info {
+            display: inline-flex;
+            gap: 5px;
+            color: $color-type;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid $color-type;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 15px;
+            &-img {
+                height: 15px;
+                width: 15px;
+            }
+
+            
+    
+            
+        }
+    }
+}
+.ofertas {
+    margin-top: 20px;
+    background-color: white;
+    padding: 18px;
+    
+    h3 {
+        font-size: 27px;
+        padding-bottom: 18px;
+    }
+}
